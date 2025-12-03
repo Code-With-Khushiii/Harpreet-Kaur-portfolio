@@ -38,44 +38,44 @@ function App() {
     }
   };
 
-  const summary = "IT Support and Systems Analyst with 3+ years in hybrid cloud environments spanning financial, academic, and SaaS orgs. Experienced with Python, SQL, AWS (Lambda, S3), ServiceNow, Splunk, IAM, DNS/VPN/VLAN, and Tier-1/Tier-2 workflows. I’m known for calm incident response, repeatable SOPs, and empathetic troubleshooting.";
+  const summary = "Technical Product Specialist with 3+ years supporting AI and SaaS products through user insights, documentation, onboarding, and product operations. Improved activation and workflow efficiency by 30–45% through Python automation, SQL pipelines, and cross-functional collaboration with engineering, product, and DevOps. Experienced in simplifying technical concepts, refining user experience, and driving data-backed product decisions.";
 
   const experience = [
     {
       company: "RebusAI (Upskill.Guru)",
-      role: "Infrastructure & Technical Support Intern",
+      role: "Technical Product Analyst Intern",
       location: "Fremont, CA",
       dates: "Sep 2025 – Present",
       highlights: [
-        "Administer analytics + infrastructure across five prod environments and resolve access/configuration issues to sustain 99.8% uptime.",
-        "Automate log monitoring and validation scripts in Python, cutting diagnostic time by 30% while improving response speed.",
-        "Implement and maintain Looker + SQL dashboards used by internal teams to reduce report turnaround by 15%.",
-        "Partner with engineering to troubleshoot latency, permissions, and server-side errors, shortening ticket cycles by 25%.",
-        "Document recurring incidents and SOPs to keep Tier-1/Tier-2 handoffs consistent for global users."
+        "Managed analytics and product operational systems across five production environments, resolving configuration and access issues to maintain 99.8% uptime and a stable user experience.",
+        "Automated Python-based log monitoring and validation pipelines, reducing diagnostic time 30% and improving incident response for cross-functional teams.",
+        "Built Looker + SQL dashboards exposing usage patterns and system health insights, reducing reporting time 15% and guiding cross-functional decisions.",
+        "Collaborated with engineering to resolve network latency, permission failures, and server errors, accelerating resolution cycles 25% and improving platform reliability.",
+        "Authored clear SOPs and step-by-step guides, cutting onboarding ramp-up by half and improving global team consistency."
       ]
     },
     {
       company: "Aenergi Inc.",
-      role: "Technical & Systems Support Intern",
+      role: "Product Operations Intern",
       location: "Remote",
       dates: "Jan 2025 – May 2025",
       highlights: [
-        "Diagnosed data-sync, API, and performance issues for real-time monitoring platforms in the U.S. and Germany to uphold 99% uptime.",
-        "Integrated 10+ operational metrics into centralized dashboards to accelerate detection and root-cause visibility.",
-        "Collaborated with engineering and DevOps on pipeline fixes, improving stability by 25%.",
-        "Authored SOPs and troubleshooting docs that cut onboarding time by 50% and standardized global support processes."
+        "Analyzed multi-region system behavior across U.S. and Germany platforms, kept systems running at 99% availability, and converted recurring patterns into insights for product and engineering teams.",
+        "Built centralized dashboards integrating 10+ operational metrics, accelerating incident detection and enabling engineering, product, and support teams to identify root causes faster.",
+        "Coordinated with engineering and DevOps to investigate pipeline and integration failures, strengthening system stability 25% and driving faster iteration cycles for internal users.",
+        "Produced troubleshooting guides and SOPs that shortened onboarding cycles by 50% and standardized workflows across global teams."
       ]
     },
     {
       company: "Modern Insecticides Ltd.",
-      role: "IT Systems & Data Operations Analyst",
+      role: "Product Operations Analyst",
       location: "Ludhiana, India",
       dates: "Oct 2020 – Dec 2021",
       highlights: [
-        "Maintained SQL-driven data pipelines powering multi-department operations, increasing reliability and reporting accuracy by 25%.",
-        "Resolved integrity and access issues across Finance and Operations, reducing incident backlogs by 30% with 98% SLA compliance.",
-        "Automated recurring reporting workflows in Python + SQL, trimming manual work by 40% and speeding decisions.",
-        "Launched dashboards tracking system health to help leadership spot bottlenecks 20% faster."
+        "Improved data-sync, API, and performance workflows across monitoring systems and maintained 99% platform availability, supporting product adoption and customer experience.",
+        "Consolidated over ten operational metrics into unified dashboards, improving incident detection speed and strengthening root-cause visibility for engineering and product teams.",
+        "Analyzed recurring issues across global markets and translated into actionable insights for engineering and product stakeholders.",
+        "Produced structured SOPs, troubleshooting guides, and workflow documentation that strengthened team consistency and accelerated onboarding."
       ]
     }
   ];
@@ -84,82 +84,63 @@ function App() {
     {
       title: "LLM Support Chatbot",
       subtitle: "AWS Bedrock + Retrieval-Augmented Generation",
-      category: "Tier-1 Automation",
-      introduction: "Architected a 24/7 internal support assistant that blends AWS Bedrock and RAG pipelines to deflect Tier-1 tickets.",
-      problem: "High-volume repetitive tickets slowed support queues and masked critical incidents.",
-      objective: "Automate first-response knowledge queries while keeping IAM-compliant access controls.",
+      category: "AI Product Operations",
+      introduction: "Architected and deployed a cloud-native Tier-1 assistant using AWS Bedrock + RAG to automate high-volume workflows and enable 24/7 internal response coverage.",
+      problem: "High-volume, repetitive internal support questions created ticket backlogs and slowed resolution for more complex issues.",
+      objective: "Deflect Tier-1 tickets while maintaining secure, IAM-aligned access and clear escalation paths to human experts.",
       methodology: [
-        "Provisioned Bedrock agents, S3 knowledge stores, and Lambda orchestration.",
-        "Embedded RBAC signals, ServiceNow context, and Splunk alerts in retrieval prompts.",
-        "Deployed a Node.js chat interface into internal workflows with guardrails for escalation."
+        "Provisioned Bedrock agents, S3 knowledge stores, and Lambda-based orchestration for retrieval-augmented generation.",
+        "Integrated internal documentation and SOPs into a secure knowledge base, incorporating RBAC signals and audit logging.",
+        "Integrated a Node.js chatbot into internal workflows so users could self-serve answers within existing tools."
       ],
       results: [
-        "Reduced Tier-1 backlog by 45% and improved time-to-first-response for remaining tickets.",
-        "Delivered context-aware answers that respected IAM scopes and audit logging.",
-        "Freed analysts to focus on Tier-2 investigations without missing SLAs."
+        "Improved resolution efficiency by 45% and significantly reduced ticket backlog for Tier-1 issues.",
+        "Enabled 24/7 internal coverage for common questions without expanding headcount.",
+        "Freed product and support teams to focus on higher-impact, Tier-2 and Tier-3 workflows."
       ],
-      conclusion: "Demonstrated how AI copilots can coexist with compliance-heavy ITSM processes without sacrificing accuracy."
+      conclusion: "Demonstrated how AI copilots can scale internal support operations while preserving security and clear escalation paths."
     },
     {
       title: "Power BI Airline Dashboard",
       subtitle: "Flight Operations Analytics",
-      category: "Data Visibility",
-      introduction: "Built Power BI dashboards unifying ETL pipelines, SQL models, and Splunk traces to monitor airline KPIs.",
-      problem: "Manual reporting delayed visibility into route performance and ops anomalies.",
-      objective: "Automate KPI refreshes and enable real-time decision making for IT/ops stakeholders.",
+      category: "Product Analytics",
+      introduction: "Designed Power BI dashboards using ETL pipelines, SQL models, and Splunk logs to cut manual reporting and improve operational visibility.",
+      problem: "Manual, spreadsheet-driven reporting slowed access to route performance, operational KPIs, and anomaly detection.",
+      objective: "Automate KPI refreshes and provide real-time insights for operations, product, and support stakeholders.",
       methodology: [
-        "Modeled T-SQL views and Power Query transformations for on-time metrics, load factors, and finance KPIs.",
-        "Streamed Splunk log signals into dataflows for proactive incident detection.",
-        "Designed DAX measures and interactive reports for leadership and support teams."
+        "Built ETL pipelines and T-SQL models to transform raw operational data into analytics-ready tables.",
+        "Connected Splunk logs to Power BI to surface infrastructure and performance signals alongside business KPIs.",
+        "Developed DAX measures and interactive dashboard views tailored to leadership, operations, and support teams."
       ],
       results: [
-        "Cut manual reporting effort by 40% and delivered single-source dashboards.",
-        "Improved cross-team alignment with shared metrics for operations, finance, and IT.",
-        "Surfaced anomalies earlier, driving quicker mitigation for customer-impacting incidents."
+        "Cut manual reporting effort by 40% and increased analytical efficiency by 40%.",
+        "Improved cross-team alignment with shared definitions of KPIs and a single source of truth.",
+        "Enabled faster detection of anomalies and better prioritization of follow-up actions."
       ],
-      conclusion: "Reinforced my ability to bridge data engineering, visualization, and operational readiness."
-    },
-    {
-      title: "SentinelAI – IP Protection Platform",
-      subtitle: "FastAPI + AWS S3 + Terraform",
-      category: "Platform Reliability",
-      introduction: "Shipped a containerized backend that automates environment provisioning and performance analytics for IP enforcement teams.",
-      problem: "Manual deployments and blind spots in latency/performance hindered release velocity.",
-      objective: "Modernize infrastructure with IaC, CI/CD, and telemetry for proactive support.",
-      methodology: [
-        "Containerized FastAPI services, configured S3 storage, and orchestrated infra via Terraform + Kubernetes.",
-        "Instrumented latency monitors and analytics scripts to inform release gates.",
-        "Automated CI/CD pipelines to standardize testing and deployment."
-      ],
-      results: [
-        "Maintained 99% uptime with predictable environment spin-up.",
-        "Improved release efficiency by 35% and reduced manual deployment effort.",
-        "Built feedback loops between support metrics and engineering roadmaps."
-      ],
-      conclusion: "Combined DevOps fundamentals with support empathy to keep user trust high."
+      conclusion: "Showcased how thoughtful data modeling and visualization can drive faster, data-backed product and operations decisions."
     }
   ];
 
   const skillCategories = [
     {
       icon: Target,
-      title: 'IT Support & Infrastructure',
-      skills: ['Windows & macOS Support', 'AV/Zoom & Helpdesk', 'Endpoint Management', 'IAM (Shibboleth, AD)', 'VPN/DNS/VLAN', 'ServiceNow', 'Linux/Unix (Basic)']
+      title: 'Technical Foundations',
+      skills: ['Python (ETL, automation)', 'SQL (T-SQL, PostgreSQL)', 'Linux/Unix (basic)', 'REST APIs, JSON/XML', 'Node.js fundamentals', 'AWS (Lambda, S3, Bedrock)', 'Cloud Security, RBAC, VPN/DNS/VLAN, SSO/IAM']
     },
     {
       icon: TrendingUp,
-      title: 'Cloud & Monitoring',
-      skills: ['AWS (Lambda, S3, Bedrock)', 'Splunk Dashboards', 'Cloud Security & RBAC', 'Role-Based Access Control', 'ASP.NET (Basic)']
+      title: 'Product & Analytics',
+      skills: ['Power BI, Tableau', 'KPI Development', 'Experimentation (A/B Testing)', 'Dashboard Design', 'Data Quality & Metric Tracking', 'Root-Cause Analysis', 'Operational Analytics']
     },
     {
       icon: Users,
-      title: 'Data & Reporting',
-      skills: ['SQL (T-SQL, PostgreSQL)', 'Power BI & DAX', 'Python ETL (Pandas)', 'Tableau', 'Data Quality & BI Reporting']
+      title: 'Developer & User-Facing',
+      skills: ['Technical Documentation (SOPs, tutorials)', 'Troubleshooting Guides', 'API Debugging', 'User Onboarding & Enablement', 'Training Content & Demo Environments', 'Cross-Functional Collaboration']
     },
     {
       icon: Lightbulb,
-      title: 'Ops & Documentation',
-      skills: ['SOP Creation', 'Workflow Optimization', 'Audit & Compliance Docs', 'Incident Response Playbooks']
+      title: 'Product Operations & Workflows',
+      skills: ['Ticketing & Incident Management', 'Workflow Optimization', 'Audit & Compliance Documentation', 'Production Issue Diagnosis', 'Software Deployment & Endpoint Management', 'ETL Pipelines & CI/CD Concepts', 'Tools: ServiceNow, Splunk, Postman, Git, FastAPI (basic), Docker/Kubernetes (basic exposure)']
     }
   ];
 
