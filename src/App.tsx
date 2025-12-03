@@ -557,7 +557,7 @@ function App() {
             <div className="flex items-center">
               <Linkedin className="w-6 h-6 text-brown mr-6" />
               <a 
-                href="https://www.linkedin.com/in/harpreet-kaur-hira/"
+                href="https://www.linkedin.com/in/harpreet-kaur-hira"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/80 font-light hover:text-white transition-colors"
@@ -574,7 +574,7 @@ function App() {
                 preetaura15@gmail.com
               </a>
             </div>
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <ExternalLink className="w-6 h-6 text-brown mr-6" />
               <a 
                 href="https://git"
@@ -584,7 +584,7 @@ function App() {
               >
                 GitHub
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
