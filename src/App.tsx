@@ -201,7 +201,7 @@ function App() {
               HARPREET KAUR
             </h1>
             <div className="text-lg text-brown mb-2 font-light tracking-widest">
-              TECHNICAL SUPPORT ENGINEER | IT INFRASTRUCTURE ANALYST
+              Technical Product Specialist | AI Product Ops | Product Analytics
             </div>
             <div className="text-sm uppercase tracking-[0.3em] text-brown/80 mb-1">
               FREMONT, CA · HYBRID/REMOTE READY
