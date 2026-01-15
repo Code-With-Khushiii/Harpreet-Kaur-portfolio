@@ -82,6 +82,28 @@ function App() {
 
   const projects = [
     {
+      title: "SentinelAI – AI-Based IP Protection System",
+      subtitle: "pHash + CLIP/BLIP detection pipeline",
+      category: "AI Governance",
+      introduction: "Architected a scalable ML review loop that fused perceptual hashing with CLIP/BLIP embeddings to catch AI-generated or tampered marketing assets before they left staging.",
+      problem: "Global marketing releases risked brand misuse because AI-manipulated or synthetic derivatives could bypass manual review queues.",
+      objective: "Detect and quarantine AI-generated or modified assets in near real time without exploding GPU spend.",
+      methodology: [
+        "Combined pHash fingerprinting with CLIP/BLIP similarity scoring to measure semantic drift against a golden image registry.",
+        "Implemented a tiered execution path: lightweight CPU hashing first, escalating to GPU-backed CLIP/BLIP only when confidence bands narrowed.",
+        "Containerized the services for Linux workers on IBM Cloud with IaC-managed scaling, alerting, and audit-grade logging."
+      ],
+      results: [
+        "Built a scalable ML pipeline using pHash + CLIP/BLIP to detect AI-generated and modified image misuse.",
+        "Reduced compute cost by ~80% versus always-on GPU inference through the tiered execution model.",
+        "Deployed on Linux/IBM Cloud where I served as lead architect and PM unifying ML, infra, and compliance stakeholders.",
+        "Product / Growth-Focused Angle: Identified a market gap in IP protection caused by generative AI image manipulation.",
+        "Designed a cost-efficient AI safeguard that balanced accuracy, scalability, and infrastructure cost.",
+        "Applied product thinking plus ML rigor to protect creators at internet scale."
+      ],
+      conclusion: "Showcased end-to-end ownership of AI safety controls, balancing detection rigor with pragmatic cost management."
+    },
+    {
       title: "LLM Support Chatbot",
       subtitle: "AWS Bedrock + Retrieval-Augmented Generation",
       category: "AI Product Operations",
@@ -201,7 +223,7 @@ function App() {
               HARPREET KAUR
             </h1>
             <div className="text-lg text-brown mb-2 font-light tracking-widest">
-              Technical Product Specialist | AI Product Ops | Product Analytics
+            Technical Product Specialist | AI Product Ops | Product Analytics
             </div>
             <div className="text-sm uppercase tracking-[0.3em] text-brown/80 mb-1">
               FREMONT, CA · HYBRID/REMOTE READY
