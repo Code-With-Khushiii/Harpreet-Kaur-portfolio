@@ -10,7 +10,7 @@ function App() {
     setIsVisible(true);
     
     const handleScroll = () => {
-      const sections = ['hero', 'summary', 'experience', 'projects', 'skills', 'certifications', 'education', 'contact'];
+      const sections = ['hero', 'summary', 'experience', 'projects', 'skills',  'education', 'contact'];
       const scrollPosition = window.scrollY + 100;
       
       for (const section of sections) {
@@ -38,142 +38,156 @@ function App() {
     }
   };
 
-  const summary = "Technical Product Specialist with 3+ years supporting AI and SaaS products through user insights, documentation, onboarding, and product operations. Improved activation and workflow efficiency by 30–45% through Python automation, SQL pipelines, and cross-functional collaboration with engineering, product, and DevOps. Experienced in simplifying technical concepts, refining user experience, and driving data-backed product decisions.";
+  const summary = "Project Management Professional with 3+ years of experience leading cross-functional coordination, compliance initiatives, and stakeholder reporting across healthcare, education, and nonprofit sectors. Managed recruitment for 70+ participants, tracked budgets and grants, and delivered dashboards improving KPI visibility by 40%. Proficient in Smartsheet and MS Project for scheduling, documentation, and performance tracking.";
 
+  
+  
   const experience = [
     {
-      company: "RebusAI (Upskill.Guru)",
-      role: "Technical Product Analyst Intern",
-      location: "Fremont, CA",
-      dates: "Sep 2025 – Present",
+      company: "JBIER Inc.",
+      role: "Project Manager & Business Development Co-op",
+      location: "Boston, MA",
+      dates: "Jan – Jul 2025",
       highlights: [
-        "Managed analytics and product operational systems across five production environments, resolving configuration and access issues to maintain 99.8% uptime and a stable user experience.",
-        "Automated Python-based log monitoring and validation pipelines, reducing diagnostic time 30% and improving incident response for cross-functional teams.",
-        "Built Looker + SQL dashboards exposing usage patterns and system health insights, reducing reporting time 15% and guiding cross-functional decisions.",
-        "Collaborated with engineering to resolve network latency, permission failures, and server errors, accelerating resolution cycles 25% and improving platform reliability.",
-        "Authored clear SOPs and step-by-step guides, cutting onboarding ramp-up by half and improving global team consistency."
+        "Directed cross-functional scheduling across 5 departments reducing turnaround time by 25%.",
+        "Secured 8+ strategic collaborations improving vendor compliance tracking.",
+        "Monitored budgets, invoices, and grants with zero audit discrepancies.",
+        "Built Smartsheet dashboards increasing KPI visibility by 40%."
       ]
     },
     {
-      company: "Aenergi Inc.",
-      role: "Product Operations Intern",
-      location: "Remote",
-      dates: "Jan 2025 – May 2025",
+      company: "Northeastern Club Sports",
+      role: "Carter Field Assistant",
+      location: "Boston, MA",
+      dates: "Sep 2024 – Aug 2025",
       highlights: [
-        "Analyzed multi-region system behavior across U.S. and Germany platforms, kept systems running at 99% availability, and converted recurring patterns into insights for product and engineering teams.",
-        "Built centralized dashboards integrating 10+ operational metrics, accelerating incident detection and enabling engineering, product, and support teams to identify root causes faster.",
-        "Coordinated with engineering and DevOps to investigate pipeline and integration failures, strengthening system stability 25% and driving faster iteration cycles for internal users.",
-        "Produced troubleshooting guides and SOPs that shortened onboarding cycles by 50% and standardized workflows across global teams."
+        "Scheduled 40+ monthly athletic events increasing attendance by 15%.",
+        "Reduced operational delays by 30% via improved coordination.",
+        "Trained 10+ staff improving task accuracy by 25%."
       ]
     },
     {
-      company: "Modern Insecticides Ltd.",
-      role: "Product Operations Analyst",
-      location: "Ludhiana, India",
-      dates: "Oct 2020 – Dec 2021",
+      company: "Dawchem Pharmaceuticals Pvt. Ltd.",
+      role: "Corporate Affairs Manager",
+      location: "Pune, India",
+      dates: "Jun 2020 – Sep 2022",
       highlights: [
-        "Improved data-sync, API, and performance workflows across monitoring systems and maintained 99% platform availability, supporting product adoption and customer experience.",
-        "Consolidated over ten operational metrics into unified dashboards, improving incident detection speed and strengthening root-cause visibility for engineering and product teams.",
-        "Analyzed recurring issues across global markets and translated into actionable insights for engineering and product stakeholders.",
-        "Produced structured SOPs, troubleshooting guides, and workflow documentation that strengthened team consistency and accelerated onboarding."
+        "Reduced audit documentation errors by 35% achieving full regulatory compliance.",
+        "Standardized reporting systems cutting review cycles by 25%.",
+        "Managed cross-functional execution for $1.2M+ corporate audits."
+      ]
+    },
+    {
+      company: "Ashraya Initiative for Children",
+      role: "Communications & Fundraising Intern",
+      location: "Pune, India",
+      dates: "Oct 2022 – Jan 2023",
+      highlights: [
+        "Delivered community programs impacting 650+ beneficiaries.",
+        "Improved engagement by 30% through revamped training materials.",
+        "Improved outreach efficiency by 25% using KPI reports."
+      ]
+    },
+    {
+      company: "Poona Hospital Research Centre",
+      role: "Clinical Intern",
+      location: "Pune, India",
+      dates: "Nov 2021 – Dec 2021",
+      highlights: [
+        "Standardized 50+ clinical case records improving reporting accuracy.",
+        "Improved documentation workflows increasing efficiency by 20%."
       ]
     }
   ];
 
+
+
+  
+  
   const projects = [
     {
-      title: "SentinelAI – AI-Based IP Protection System",
-      subtitle: "pHash + CLIP/BLIP detection pipeline",
-      category: "AI Governance",
-      introduction: "Architected a scalable ML review loop that fused perceptual hashing with CLIP/BLIP embeddings to catch AI-generated or tampered marketing assets before they left staging.",
-      problem: "Global marketing releases risked brand misuse because AI-manipulated or synthetic derivatives could bypass manual review queues.",
-      objective: "Detect and quarantine AI-generated or modified assets in near real time without exploding GPU spend.",
+      title: "Smartsheet Governance & Optimization Strategy",
+      subtitle: "Enterprise Dashboard Optimization",
+      category: "Project Governance",
+      introduction: "Designed enterprise Smartsheet dashboards tracking 200+ licenses and automation KPIs.",
+      problem: "Lack of centralized governance visibility across departments.",
+      objective: "Improve license governance and renewal decision accuracy.",
       methodology: [
-        "Combined pHash fingerprinting with CLIP/BLIP similarity scoring to measure semantic drift against a golden image registry.",
-        "Implemented a tiered execution path: lightweight CPU hashing first, escalating to GPU-backed CLIP/BLIP only when confidence bands narrowed.",
-        "Containerized the services for Linux workers on IBM Cloud with IaC-managed scaling, alerting, and audit-grade logging."
+        "Built dashboard prototypes for license utilization tracking.",
+        "Aligned stakeholders via Trello project workflows."
       ],
       results: [
-        "Built a scalable ML pipeline using pHash + CLIP/BLIP to detect AI-generated and modified image misuse.",
-        "Reduced compute cost by ~80% versus always-on GPU inference through the tiered execution model.",
-        "Deployed on Linux/IBM Cloud where I served as lead architect and PM unifying ML, infra, and compliance stakeholders.",
-        "Product / Growth-Focused Angle: Identified a market gap in IP protection caused by generative AI image manipulation.",
-        "Designed a cost-efficient AI safeguard that balanced accuracy, scalability, and infrastructure cost.",
-        "Applied product thinking plus ML rigor to protect creators at internet scale."
+        "Improved governance visibility by 35%.",
+        "Streamlined renewal tracking and portfolio decisions."
       ],
-      conclusion: "Showcased end-to-end ownership of AI safety controls, balancing detection rigor with pragmatic cost management."
+      conclusion: "Demonstrated scalable governance design and stakeholder alignment."
     },
     {
-      title: "LLM Support Chatbot",
-      subtitle: "AWS Bedrock + Retrieval-Augmented Generation",
-      category: "AI Product Operations",
-      introduction: "Architected and deployed a cloud-native Tier-1 assistant using AWS Bedrock + RAG to automate high-volume workflows and enable 24/7 internal response coverage.",
-      problem: "High-volume, repetitive internal support questions created ticket backlogs and slowed resolution for more complex issues.",
-      objective: "Deflect Tier-1 tickets while maintaining secure, IAM-aligned access and clear escalation paths to human experts.",
+      title: "Grammarly AI Marketing Campaign Risk Management",
+      subtitle: "PMI-Based Risk Framework",
+      category: "Risk Management",
+      introduction: "Developed comprehensive risk management plan for $600K campaign.",
+      problem: "High project variance due to unmanaged risks.",
+      objective: "Reduce delivery risk and budget deviation.",
       methodology: [
-        "Provisioned Bedrock agents, S3 knowledge stores, and Lambda-based orchestration for retrieval-augmented generation.",
-        "Integrated internal documentation and SOPs into a secure knowledge base, incorporating RBAC signals and audit logging.",
-        "Integrated a Node.js chatbot into internal workflows so users could self-serve answers within existing tools."
+        "Created live risk register, heat map, and WBS.",
+        "Embedded real-time monitoring in MS Project."
       ],
       results: [
-        "Improved resolution efficiency by 45% and significantly reduced ticket backlog for Tier-1 issues.",
-        "Enabled 24/7 internal coverage for common questions without expanding headcount.",
-        "Freed product and support teams to focus on higher-impact, Tier-2 and Tier-3 workflows."
+        "Reduced project variance by 30%.",
+        "Improved reporting accuracy by 40%."
       ],
-      conclusion: "Demonstrated how AI copilots can scale internal support operations while preserving security and clear escalation paths."
+      conclusion: "Strengthened enterprise risk governance practices."
     },
     {
-      title: "Power BI Airline Dashboard",
-      subtitle: "Flight Operations Analytics",
-      category: "Product Analytics",
-      introduction: "Designed Power BI dashboards using ETL pipelines, SQL models, and Splunk logs to cut manual reporting and improve operational visibility.",
-      problem: "Manual, spreadsheet-driven reporting slowed access to route performance, operational KPIs, and anomaly detection.",
-      objective: "Automate KPI refreshes and provide real-time insights for operations, product, and support stakeholders.",
+      title: "Business Analysis for Strategic Brand Development",
+      subtitle: "Market & KPI Analytics",
+      category: "Business Analysis",
+      introduction: "Analyzed customer surveys and market datasets for brand positioning.",
+      problem: "Limited insight into engagement drivers.",
+      objective: "Improve strategic alignment and visibility.",
       methodology: [
-        "Built ETL pipelines and T-SQL models to transform raw operational data into analytics-ready tables.",
-        "Connected Splunk logs to Power BI to surface infrastructure and performance signals alongside business KPIs.",
-        "Developed DAX measures and interactive dashboard views tailored to leadership, operations, and support teams."
+        "Analyzed 200+ survey responses.",
+        "Defined KPI tracking models for SEO and referrals."
       ],
       results: [
-        "Cut manual reporting effort by 40% and increased analytical efficiency by 40%.",
-        "Improved cross-team alignment with shared definitions of KPIs and a single source of truth.",
-        "Enabled faster detection of anomalies and better prioritization of follow-up actions."
+        "Improved insight accuracy by 35%.",
+        "Boosted visibility and alignment by 25%."
       ],
-      conclusion: "Showcased how thoughtful data modeling and visualization can drive faster, data-backed product and operations decisions."
+      conclusion: "Delivered data-backed strategy insights."
     }
   ];
 
+
+
+  
+  
   const skillCategories = [
     {
       icon: Target,
-      title: 'Technical Foundations',
-      skills: ['Python (ETL, automation)', 'SQL (T-SQL, PostgreSQL)', 'Linux/Unix (basic)', 'REST APIs, JSON/XML', 'Node.js fundamentals', 'AWS (Lambda, S3, Bedrock)', 'Cloud Security, RBAC, VPN/DNS/VLAN, SSO/IAM']
+      title: 'Project Management',
+      skills: ['Agile', 'Scope Management', 'Risk Assessment', 'Budget Forecasting', 'Compliance Auditing', 'Portfolio Management']
     },
     {
       icon: TrendingUp,
-      title: 'Product & Analytics',
-      skills: ['Power BI, Tableau', 'KPI Development', 'Experimentation (A/B Testing)', 'Dashboard Design', 'Data Quality & Metric Tracking', 'Root-Cause Analysis', 'Operational Analytics']
+      title: 'Analytics & Reporting',
+      skills: ['Power BI', 'Tableau', 'Advanced Excel', 'SQL (Basic)', 'KPI Dashboards']
     },
     {
       icon: Users,
-      title: 'Developer & User-Facing',
-      skills: ['Technical Documentation (SOPs, tutorials)', 'Troubleshooting Guides', 'API Debugging', 'User Onboarding & Enablement', 'Training Content & Demo Environments', 'Cross-Functional Collaboration']
+      title: 'Tools & Platforms',
+      skills: ['Smartsheet', 'MS Project', 'Jira', 'Confluence', 'Trello', 'Asana', 'SharePoint']
     },
     {
       icon: Lightbulb,
-      title: 'Product Operations & Workflows',
-      skills: ['Ticketing & Incident Management', 'Workflow Optimization', 'Audit & Compliance Documentation', 'Production Issue Diagnosis', 'Software Deployment & Endpoint Management', 'ETL Pipelines & CI/CD Concepts', 'Tools: ServiceNow, Splunk, Postman, Git, FastAPI (basic), Docker/Kubernetes (basic exposure)']
+      title: 'Operations',
+      skills: ['Workflow Automation', 'Stakeholder Communication', 'Documentation', 'Audit Readiness']
     }
   ];
 
-  const certifications = [
-    'CompTIA A+',
-    'AWS Certified SysOps Administrator — Associate',
-    'AWS Academy Cloud Foundations',
-    'AWS Academy Cloud Security Builder',
-    'Microsoft PL-300: Power BI Data Analyst',
-    'Box Intelligent Content Management (Admin)'
-  ];
+
+
+
 
   return (
     <div className="min-h-screen bg-cream">
@@ -181,15 +195,14 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-md border-b border-brown/20">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-display text-black tracking-wide">HARPREET KAUR</div>
+            <div className="text-2xl font-display text-black tracking-wide">PINAKINI DAWRA</div>
             <div className="hidden md:flex space-x-8">
               {[
                 { id: 'hero', label: 'Home' },
                 { id: 'summary', label: 'Summary' },
                 { id: 'experience', label: 'Experience' },
                 { id: 'projects', label: 'Projects' },
-                { id: 'skills', label: 'Skills' },
-                { id: 'certifications', label: 'Certs' },
+                { id: 'skills', label: 'Skills' }
                 { id: 'education', label: 'Education' },
                 { id: 'contact', label: 'Contact' }
               ].map((item) => (
@@ -215,18 +228,18 @@ function App() {
             <div className="mb-12">
               <img 
                 src="images/image.png"
-                alt="Harpreet Kaur"
+                alt="Pinakini Dawra"
                 className="w-36 h-36 rounded-full mx-auto mb-6 object-cover border-4 border-brown/30 shadow-lg"
               />
             </div>
             <h1 className="text-5xl md:text-6xl font-display text-black mb-6 tracking-wide">
-              HARPREET KAUR
+              PINAKINI DAWRA
             </h1>
             <div className="text-lg text-brown mb-2 font-light tracking-widest">
-            Technical Product Specialist | AI Product Ops | Product Analytics
+            Project Manager | Project Coordinator | Project Administrator
             </div>
             <div className="text-sm uppercase tracking-[0.3em] text-brown/80 mb-1">
-              FREMONT, CA · HYBRID/REMOTE READY
+              BOSTON, MA, USA
             </div>
             <div className="w-24 h-0.5 bg-brown mx-auto mb-10"></div>
             <p className="text-lg text-brown mb-10 max-w-4xl mx-auto leading-relaxed font-light">
@@ -249,9 +262,9 @@ function App() {
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-16 text-center">
             {[
-              { label: 'UPTIME SUPPORTED', value: '99%+', detail: 'Global SaaS + Ops' },
-              { label: 'AUTOMATION IMPACT', value: '45%', detail: 'Tier-1 deflection' },
-              { label: 'TOOLKIT', value: 'Python · SQL · AWS', detail: 'ServiceNow · Splunk' }
+              { label: 'UPTIME SUPPORTED', value: '100%', detail: 'Compliance Delivery' },
+              { label: 'AUTOMATION IMPACT', value: '40%', detail: 'KPI Visibility Boost' },
+              { label: 'TOOLKIT', value: 'Smartsheet · MS Project', detail: 'Power BI · Tableau' }
             ].map((stat, index) => (
               <div key={index} className="bg-white p-6 rounded-sm shadow-sm border border-brown/10">
                 <div className="text-xs tracking-widest text-brown/70 mb-2">{stat.label}</div>
@@ -346,7 +359,7 @@ function App() {
 
       {/* Projects Section */}
       <section id="projects" className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto  px-6">
           <div className="text-center mb-20">
             <h2 className="text-5xl font-display text-black mb-8 tracking-wide">PROJECTS</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-8"></div>
@@ -354,12 +367,12 @@ function App() {
               Automation, analytics, and infrastructure projects that pair uptime goals with user empathy.
             </p>
           </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex justify-center">
+          <div className="grid  gap-8 justify-items-center place-content-center">
             {projects.map((project, index) => (
               <div 
                 key={index}
-                className="bg-cream p-6 rounded-sm hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-1"
+                className="bg-cream p-6 rounded-sm hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-1 w-full max-w-[320px]"
                 onClick={() => setSelectedProject(index)}
               >
                 <div className="mb-3">
@@ -383,7 +396,7 @@ function App() {
               </div>
             ))}
           </div>
-
+          </div>
           <div className="text-center mt-12">
             <p className="text-brown font-light">
               Need implementation breakdowns or architecture diagrams?
@@ -511,25 +524,7 @@ function App() {
         </div>
       </section>
 
-      {/* Certifications */}
-      <section id="certifications" className="py-24 bg-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl font-display text-black mb-8 tracking-wide">CERTIFICATIONS</h2>
-            <p className="text-lg text-brown max-w-2xl mx-auto font-light">
-              Credentials that reinforce day-to-day systems work.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6">
-            {certifications.map((cert, index) => (
-              <div key={index} className="flex items-center bg-cream p-6 rounded-sm border border-brown/10 shadow-sm">
-                <Award className="w-6 h-6 text-brown mr-4" />
-                <span className="text-brown font-medium">{cert}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
       {/* Education */}
       <section id="education" className="py-24 bg-cream">
@@ -541,11 +536,11 @@ function App() {
           <div className="bg-white p-8 rounded-sm shadow-sm border border-brown/10">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
               <div>
-                <h3 className="text-2xl font-display text-black tracking-wide">San Francisco Bay University</h3>
-                <p className="text-brown font-medium">Master of Science · Computer Science</p>
+                <h3 className="text-2xl font-display text-black tracking-wide">Northeastern University</h3>
+                <p className="text-brown font-medium">Master of Science · Project Management</p>
               </div>
               <div className="text-sm text-brown/80 font-light mt-2 md:mt-0">
-                Fremont, CA · Apr 2024 – Dec 2025
+                Sep 2023 – Aug 2025
               </div>
             </div>
             <p className="text-brown leading-relaxed font-light">
@@ -573,13 +568,13 @@ function App() {
                 href="tel:+19257655000"
                 className="text-white/80 font-light hover:text-white transition-colors"
               >
-                +1 (925) 765-5000
+                +1 (857) 316-7993
               </a>
             </div>
             <div className="flex items-center">
               <Linkedin className="w-6 h-6 text-brown mr-6" />
               <a 
-                href="https://www.linkedin.com/in/harpreet-kaur-hira"
+                href="https://www.linkedin.com/in/pinakini-dawra/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/80 font-light hover:text-white transition-colors"
@@ -590,10 +585,10 @@ function App() {
             <div className="flex items-center">
               <Mail className="w-6 h-6 text-brown mr-6" />
               <a 
-                href="mailto:preetaura15@gmail.com"
+                href="mailto:dawrapinakini05@gmail.com"
                 className="text-white/80 font-light hover:text-white transition-colors"
               >
-                preetaura15@gmail.com
+                dawrapinakini05@gmail.com
               </a>
             </div>
             {/* <div className="flex items-center">
@@ -615,7 +610,7 @@ function App() {
       <footer className="bg-brown text-white/80 py-8">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <p className="font-light tracking-wide">
-            © 2025 Harpreet Kaur · Technical Support & Infrastructure.
+            © 2025 Pinakini Dawra · Technical Support & Infrastructure.
           </p>
         </div>
       </footer>
